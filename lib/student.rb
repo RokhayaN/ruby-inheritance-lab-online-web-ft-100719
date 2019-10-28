@@ -4,9 +4,9 @@ class Student < User
     @last_name = last_name
     @knowledge =[]
   end
-  def learn(KNOWLEDGE)
-    @knowledge << KNOWLEDGE
+  def learn(knowledge)
+    @knowledge << self
   end 
-  def KNOWLEDGE
+  def knowledge
     @knowledge
 end
